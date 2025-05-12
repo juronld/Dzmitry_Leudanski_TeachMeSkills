@@ -59,15 +59,23 @@ psql -h localhost -p 5437 -U admin -d loans -f init.sql
 Источник (postgresql_source_loans):  
 
 - Conn Type: Postgres
-- Host: postgres_db3
+- Host: loans
+- Login: admin
+- Password: admin
+- Schema: public
+  
+Источник подключение DWH к забору данных (postgresql_source_user_dwh_load):  
+
+- Conn Type: Postgres
+- Host: loans
 - Login: user_dwh_load
 - Password: user_dwh_load
-- Schema: public
+- Schema: public  
 
 DWH (postgresql_dwh_bank):
 
 - Conn Type: Postgres
-- Host: postgres_db4
+- Host: dwh_bank
 - Login: admin
 - Password: admin
 - Schema: dwh_bank
