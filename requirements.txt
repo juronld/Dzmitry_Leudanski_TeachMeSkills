@@ -1,5 +1,0 @@
-faker
-psycopg2-binary
-SQLAlchemy-Utils<0.38.0
-datetime
-typing
