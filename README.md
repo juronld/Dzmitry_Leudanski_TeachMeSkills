@@ -11,18 +11,19 @@
 
 ### Файлы проекта
 Убедитесь, что в рабочей директории есть следующие файлы:
-docker-compose.yml
-requirements.txt
-init.sql
-create_shemes_dwh_bank.sql
-create_tables_tech_logs.sql
-create_tables_loans_dwh_stage.sql
-create_tables_loans_dwh_dds.sql
-create_tables_loans.sql
+
+   docker-compose.yml
+   requirements.txt
+   init.sql
+   create_shemes_dwh_bank.sql
+   create_tables_tech_logs.sql
+   create_tables_loans_dwh_stage.sql
+   create_tables_loans_dwh_dds.sql
+   create_tables_loans.sql
 
 ## 2. Запуск контейнеров
 
-bash
+'''bash
 docker-compose up -d
 
 Сервисы будут доступны:
