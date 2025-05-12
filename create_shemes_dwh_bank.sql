@@ -1,5 +1,0 @@
---Создание схем в DB dwh_bank
-CREATE SCHEMA dds AUTHORIZATION "admin";
-CREATE SCHEMA dm AUTHORIZATION "admin";
-CREATE SCHEMA tech AUTHORIZATION "admin";
-CREATE SCHEMA stage AUTHORIZATION "admin";
